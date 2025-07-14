@@ -1,0 +1,22 @@
+{
+  "name": "ArgonTest",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/Shared"
+    },
+    "ServerScriptService": {
+      "$path": "src/Server"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/Client"
+      },
+      "$properties": {
+        "CharacterUseJumpPower": false,
+        "CharacterWalkSpeed": 20,
+        "CameraMaxZoomDistance": 128
+      }
+    }
+  }
+}
